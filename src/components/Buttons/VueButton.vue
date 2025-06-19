@@ -13,5 +13,11 @@
   width: 100%;
   border: none;
   border-radius: var(--radius);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:active {
+    scale: 1.05;
+    transition: all 0.3s ease;
+  }
 }
 </style>
