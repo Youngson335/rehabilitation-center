@@ -30,6 +30,7 @@ import VueButton from "../Buttons/VueButton.vue";
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 25px;
   &__item {
     display: flex;
     justify-content: center;

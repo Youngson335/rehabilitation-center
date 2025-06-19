@@ -1,5 +1,5 @@
 <template>
-  <img :src="props.image" alt="image" />
+  <img class="vue-image" :src="props.image" alt="image" />
 </template>
 <script lang="ts" setup>
 import { defineProps } from "vue";
@@ -9,7 +9,7 @@ const props = defineProps<{
 }>();
 </script>
 <style lang="scss">
-img {
+.vue-image {
   display: block;
   width: 100%;
 }
